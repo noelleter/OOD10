@@ -12,13 +12,22 @@
 /* template 을 사용한 swap 함수 구현(실습 1) */
 /* template 을 사용한 swap 함수에 string type specialization */
 
+// 함수 순서
 template<typename T>
-
 void swap(T& a, T& b){
     T temp = a;
     a = b;
     b = temp;
 }
+
+// 템플릿 특수화
+template <>
+void swap(std::string& a, std::string& b) {
+    std::string temp = a;
+    a = b;
+    b = temp;
+};
+
 int main(){
     int a = 1;
     int b = 2;
@@ -30,6 +39,7 @@ int main(){
     
     swap<int>(a, b);
     swap<float>(c, d);
+    swap<>(e, f);
     // swap<std::string>(e, f);
     
     std::cout << "a: " << a << ", b: " << b << std::endl;
@@ -37,4 +47,5 @@ int main(){
     std::cout << "e: " << c << ", f: " << d << std::endl;
     return 0;
 }
+
 
