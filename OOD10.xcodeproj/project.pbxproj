@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9341863F2378DE4800D702FE /* swap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9341863E2378DE4800D702FE /* swap.cpp */; };
+		934186462378DFE100D702FE /* swap_template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 934186452378DFE100D702FE /* swap_template.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		9341863B2378DE4800D702FE /* OOD10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOD10; sourceTree = BUILT_PRODUCTS_DIR; };
 		9341863E2378DE4800D702FE /* swap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swap.cpp; sourceTree = "<group>"; };
+		934186452378DFE100D702FE /* swap_template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = swap_template.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				9341863E2378DE4800D702FE /* swap.cpp */,
+				934186452378DFE100D702FE /* swap_template.cpp */,
 			);
 			path = OOD10;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934186462378DFE100D702FE /* swap_template.cpp in Sources */,
 				9341863F2378DE4800D702FE /* swap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
